@@ -1,2 +1,0 @@
-# joomfbug.github.io
-uuaaurgh
