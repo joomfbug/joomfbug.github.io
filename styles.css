@@ -1,6 +1,48 @@
 body {
-  background-color: pink;
+    background-image: url("img/bugtile.png");
+    margin: 0;
 }
-h1 {
-  color: red;
+
+nav {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    list-style-type: none;  
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #fbffc8;
+    overflow: hidden;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    padding: 1em 1em;
+    display: block;
+}
+
+h1, h2, h3, p {
+    padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row
+}
+
+.flex-item {
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+      flex-direction: column;
+    }
 }
